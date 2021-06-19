@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+}
+.container {
+   height: 65%;
+   align-items: center;
+   justify-content: center;
+
+}
+.custom-shape-divider-top-1623910970 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    height: 30%;
+}
+
+.custom-shape-divider-top-1623910970 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 245px;
+}
+
+.custom-shape-divider-top-1623910970 .shape-fill {
+    fill: #fecd3b;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 26%;
+    left: 30%;
+}
+h2 {
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 15px;
+}
+img {
+    width: 55%;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+p {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    font-size: 1.5rem;
+}
+.num {
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #fecd3b;
+    position: relative;
+} 
+.num p {
+    position: absolute;
+    font-weight: bolder;
+}
+.phoneIcon {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.social-icons {
+    text-align: center;
+}
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 20px 5px;
+    position: inherit;
+}
+.a {
+    display: flex;
+    justify-content: space-around;
+}
+.a p {
+    position: inherit;
+}
+.opening-hours, .address {
+    width: 40%;
+    border: 2px solid #fecd3b;
+    text-align: center;
+    padding: 15px;
+}
+.opening-hours h3, .address h3 {
+    border-bottom: 3px solid #fecd3b;
+    width: 30%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+}
+
+
